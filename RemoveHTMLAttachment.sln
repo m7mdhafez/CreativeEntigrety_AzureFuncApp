@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveHTMLAttachment", "RemoveHTMLAttachment.csproj", "{A51F7D7A-7978-4506-84ED-43E498951388}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{90F43B46-91DE-468C-9694-1DF412652611}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{2D429736-733F-429B-81FF-6AB66381BC90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net6.0", "net6.0", "{356BBCAD-10D5-478E-BBA9-B59239928054}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "obj\Release\net6.0\WorkerExtensions\WorkerExtensions.csproj", "{A7235AA6-ADD1-499B-B470-18871AF774A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A51F7D7A-7978-4506-84ED-43E498951388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51F7D7A-7978-4506-84ED-43E498951388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51F7D7A-7978-4506-84ED-43E498951388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51F7D7A-7978-4506-84ED-43E498951388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7235AA6-ADD1-499B-B470-18871AF774A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7235AA6-ADD1-499B-B470-18871AF774A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7235AA6-ADD1-499B-B470-18871AF774A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7235AA6-ADD1-499B-B470-18871AF774A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D429736-733F-429B-81FF-6AB66381BC90} = {90F43B46-91DE-468C-9694-1DF412652611}
+		{356BBCAD-10D5-478E-BBA9-B59239928054} = {2D429736-733F-429B-81FF-6AB66381BC90}
+		{A7235AA6-ADD1-499B-B470-18871AF774A3} = {356BBCAD-10D5-478E-BBA9-B59239928054}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCACD3BE-2551-4D1E-8539-1909CD3B6D75}
+	EndGlobalSection
+EndGlobal
